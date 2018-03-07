@@ -1,0 +1,42 @@
+help
+show dbs
+use demo
+showdbs
+db.dogs.insert({name:"stud", breed:"Mutt"})
+db.dogs.find()
+db.dogs.insert({name:"lucy", breed:"Mutt"})
+do.dogs.find({name:'stud'})
+do.dogs.find({name:"stud"})
+db.dogs.find({name:"stud"})
+db.dogs.insert({name:"LULU", breed:"Poodle"})
+db.dogs.update({name:"stud",{breed:"Lab"}} )
+db.dogs.update({name:"stud",{breed:"Lab"})  db.dogs.update({name:"stud",{breed:"Lab)
+db.dogs.update({name:"stud"},{breed:"Lab"})
+db.dogs.find()
+db.dogs.update({name:"stud",{$set:{name: "Tater", isCute:true}}})
+db.dogs.update({name:"stud"},{$set:{name: "Tater", isCute:true}})
+db.dogs.find()
+db.dogs.update({name:"lucy"},{$set:{name: "Tater", isCute:true}})
+db.dogs.find()
+show dbs
+use yelp_camp
+show collections
+db.campgrounds.find()
+db.campgrounds.drop()
+use yelp_camp
+db.campgrounds.find();
+show dbs
+use yelp_camp
+show collections
+use yelp_camp
+show collections
+db.campgrounds.find();
+db.campgrounds.find()
+show collections
+show collections
+show collections
+show dbs
+use yelp_camp
+show collections
+db.campgrounds.find()
+db.comments.find()

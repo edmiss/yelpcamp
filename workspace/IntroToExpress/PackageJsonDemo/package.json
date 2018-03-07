@@ -1,0 +1,14 @@
+{
+  "name": "pacagejsondemo",
+  "version": "1.0.0",
+  "description": "SImple Package.json demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanzhao chen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
